@@ -109,7 +109,14 @@ main {
   transform: none;
 }
 
-
+ /* Adjust the image to make it responsive */
+.logo-space img {
+  width: 100%; /* Make the image take up the full width of its container */
+  max-width: 735px; /* Set a maximum width for the image to prevent it from getting too large */
+  height: auto; /* Keep the aspect ratio intact */
+  display: block; /* Remove any unwanted margins/padding around the image */
+  margin: 0 auto; /* Center the image */
+}
 
 footer {
   background-color: #d3c8b6; /* Light beige */
